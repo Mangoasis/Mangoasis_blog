@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .leaf { transform-box: fill-box; transform-origin: 50% 100%; animation: sway 3.4s ease-in-out infinite alternate; }
+    .leaf2 { animation-delay: 0.7s; }
+    .leaf3 { animation-delay: 1.2s; }
+    @keyframes sway { from { transform: rotate(-3.5deg); } to { transform: rotate(3.5deg); } }
+  </style>
+  <rect width="800" height="450" fill="#E8F5E9"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <g fill="none" stroke="#43a047" stroke-width="7" stroke-linecap="round">
+    <path d="M400 330 L400 160"/>
+    <path class="leaf" d="M400 250 Q 340 230 320 180 Q 380 190 400 240"/>
+    <path class="leaf leaf2" d="M400 215 Q 460 195 480 145 Q 420 155 400 205"/>
+    <path class="leaf leaf3" d="M400 160 Q 355 130 350 90 Q 405 100 402 150"/>
+  </g>
+  <g fill="#e57373" stroke="#ef9a9a" stroke-width="4">
+    <circle class="leaf" cx="320" cy="176" r="7"/>
+    <circle class="leaf leaf2" cx="482" cy="140" r="7"/>
+    <circle class="leaf leaf3" cx="350" cy="88" r="7"/>
+  </g>
+  <g fill="#fff" stroke="#81c784" stroke-width="6" stroke-linejoin="round">
+    <path d="M330 330 L470 330 L452 430 L348 430 Z"/>
+  </g>
+  <rect x="318" y="322" width="164" height="18" rx="9" fill="#a5d6a7" stroke="#81c784" stroke-width="5"/>
+</g>
+</svg>

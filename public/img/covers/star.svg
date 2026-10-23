@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .tw { animation: tw 2.4s ease-in-out infinite alternate; }
+    .tw2 { animation: tw 3s 0.7s ease-in-out infinite alternate; }
+    @keyframes tw { from { opacity: 0.25; } to { opacity: 1; } }
+    .shoot { animation: shoot 5s ease-in-out infinite; }
+    @keyframes shoot {
+      0% { transform: translate(0, 0); opacity: 0; }
+      12% { opacity: 1; }
+      40% { transform: translate(190px, 95px); opacity: 0; }
+      100% { transform: translate(190px, 95px); opacity: 0; }
+    }
+  </style>
+  <rect width="800" height="450" fill="#1F2A44"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <g fill="#fff">
+    <circle class="tw" cx="110" cy="90" r="3.5"/>
+    <circle class="tw2" cx="260" cy="200" r="3"/>
+    <circle class="tw" cx="420" cy="120" r="4"/>
+    <circle class="tw2" cx="600" cy="220" r="3"/>
+    <circle class="tw" cx="710" cy="90" r="3.5"/>
+    <circle class="tw2" cx="500" cy="300" r="2.5"/>
+    <circle class="tw" cx="180" cy="300" r="3"/>
+  </g>
+  <!-- 流星 -->
+  <g class="shoot">
+    <line x1="80" y1="60" x2="190" y2="115" stroke="#ffe28f" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="196" cy="118" r="8" fill="#ffe28f"/>
+  </g>
+  <g fill="#16203a" stroke="#3d4d78" stroke-width="5" stroke-linejoin="round">
+    <path d="M0 450 L0 380 L200 300 L400 390 L580 310 L800 380 L800 450 Z"/>
+  </g>
+</g>
+</svg>

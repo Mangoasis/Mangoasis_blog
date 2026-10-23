@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .cloud { transform-box: fill-box; transform-origin: center; animation: floaty 7s ease-in-out infinite alternate; }
+    @keyframes floaty { to { transform: translateY(-12px); } }
+    .birds { animation: fly 10s ease-in-out infinite alternate; }
+    @keyframes fly { to { transform: translateX(40px); } }
+  </style>
+  <rect width="800" height="450" fill="#E3F2FD"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <circle cx="150" cy="90" r="34" fill="#ffe28f" stroke="#f4b942" stroke-width="6"/>
+  <g class="cloud" fill="#fff" stroke="#90caf9" stroke-width="5" stroke-linejoin="round">
+    <path d="M560 120 q -12 -32 20 -32 q 8 -24 40 -18 q 30 -26 56 2 q 32 -4 28 26 q 22 10 6 26 z"/>
+  </g>
+  <g class="birds" fill="none" stroke="#5a6b7f" stroke-width="5" stroke-linecap="round">
+    <path d="M300 140 q 14 -12 28 0 q 14 -12 28 0"/>
+    <path d="M380 100 q 11 -9 22 0 q 11 -9 22 0"/>
+  </g>
+  <g stroke-linejoin="round" stroke-width="6">
+    <path d="M0 450 L0 340 L180 200 L360 360 L520 240 L680 350 L800 280 L800 450 Z" fill="#a5c8f0" stroke="#6f9ad8"/>
+    <path d="M180 200 L145 226 L215 226 Z" fill="#fff" stroke="#6f9ad8"/>
+    <path d="M520 240 L490 262 L550 262 Z" fill="#fff" stroke="#6f9ad8"/>
+    <path d="M0 450 L0 400 L220 320 L440 410 L620 330 L800 396 L800 450 Z" fill="#6f9ad8" stroke="#5a86c8"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .s1 { animation: rise 3.2s ease-in-out infinite; }
+    .s2 { animation: rise 3.2s 0.8s ease-in-out infinite; }
+    .s3 { animation: rise 3.2s 1.6s ease-in-out infinite; }
+    @keyframes rise {
+      0% { transform: translateY(0); opacity: 0; }
+      30% { opacity: 0.9; }
+      100% { transform: translateY(-46px); opacity: 0; }
+    }
+    .heart { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+    @keyframes beat { 0%,100% { transform: scale(1); } 25% { transform: scale(1.18); } }
+  </style>
+  <rect width="800" height="450" fill="#FFF3E0"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <g fill="none" stroke="#a1714b" stroke-width="6" stroke-linecap="round">
+    <path class="s1" d="M370 210 q 10 -18 0 -34 q -10 -16 0 -30"/>
+    <path class="s2" d="M405 200 q 10 -18 0 -34 q -10 -16 0 -30"/>
+    <path class="s3" d="M440 210 q 10 -18 0 -34 q -10 -16 0 -30"/>
+  </g>
+  <g fill="#fff" stroke="#8d6e63" stroke-width="7" stroke-linejoin="round">
+    <path d="M310 240 L500 240 L486 350 Q 483 372 460 372 L350 372 Q 327 372 324 350 Z"/>
+    <path d="M310 252 Q 268 252 268 290 Q 268 328 316 326" fill="none"/>
+  </g>
+  <ellipse cx="405" cy="392" rx="120" ry="16" fill="#efdcbf" stroke="#d7b895" stroke-width="4"/>
+  <path class="heart" d="M405 168 c -8 -12 -26 -10 -26 4 c 0 12 14 18 26 28 c 12 -10 26 -16 26 -28 c 0 -14 -18 -16 -26 -4 Z" fill="#ff8a80" stroke="#e57373" stroke-width="4"/>
+</g>
+</svg>

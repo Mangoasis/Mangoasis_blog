@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .tw { animation: tw 2.4s ease-in-out infinite alternate; }
+    .tw2 { animation: tw 3.1s 0.6s ease-in-out infinite alternate; }
+    .tw3 { animation: tw 2s 1.1s ease-in-out infinite alternate; }
+    @keyframes tw { from { opacity: 0.25; } to { opacity: 1; } }
+    .moon-f { transform-box: fill-box; transform-origin: center; animation: sway 6s ease-in-out infinite alternate; }
+    @keyframes sway { to { transform: rotate(-6deg) translateX(6px); } }
+  </style>
+  <rect width="800" height="450" fill="#2b3a67"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <g fill="#fff">
+    <circle class="tw" cx="120" cy="80" r="4"/>
+    <circle class="tw2" cx="240" cy="150" r="3"/>
+    <circle class="tw3" cx="420" cy="70" r="3.5"/>
+    <circle class="tw" cx="560" cy="180" r="2.5"/>
+    <circle class="tw2" cx="680" cy="60" r="4"/>
+    <circle class="tw3" cx="330" cy="230" r="2.5"/>
+    <circle class="tw" cx="720" cy="250" r="3"/>
+  </g>
+  <g class="moon-f">
+    <path d="M520 90 a 62 62 0 1 0 52 96 a 52 52 0 1 1 -52 -96 Z" fill="#ffe9a8" stroke="#f7d774" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+  <g fill="none" stroke="#8fa3d9" stroke-width="5" stroke-linecap="round">
+    <path d="M180 300 q 14 -12 28 0 q 14 -12 28 0"/>
+    <path d="M260 340 q 11 -10 22 0 q 11 -10 22 0"/>
+  </g>
+  <g fill="#1f2a4d" stroke="#4a5b8c" stroke-width="5" stroke-linejoin="round">
+    <path d="M0 450 L0 360 L170 260 L330 380 L470 280 L640 390 L800 300 L800 450 Z"/>
+  </g>
+</g>
+</svg>

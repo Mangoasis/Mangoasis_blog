@@ -1,0 +1,27 @@
+{
+  "name": "mangoasis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mangoasis — 基于 Vue3 + Element Plus 的个人博客与壁纸空间，视觉源自 Hexo Butterfly 主题，参考 mrzym.top 技术栈，支持网页端与移动端在线写作",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/lxgw-wenkai": "^5.3.0",
+    "@fontsource/noto-sans-sc": "^5.3.1",
+    "element-plus": "^2.8.8",
+    "md-editor-v3": "^5.4.0",
+    "vditor": "^4.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.3"
+  }
+}

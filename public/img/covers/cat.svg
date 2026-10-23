@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <style>
+    .tail { transform-box: fill-box; transform-origin: 12% 90%; animation: wag 2.6s ease-in-out infinite alternate; }
+    @keyframes wag { to { transform: rotate(16deg); } }
+    .eyes-l { animation: blink 4s ease-in-out infinite; }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+    .zzz { animation: floatz 3s ease-in-out infinite alternate; }
+    @keyframes floatz { to { transform: translateY(-8px); } }
+  </style>
+  <rect width="800" height="450" fill="#F3E5F5"/>
+  <g class="safe-band" transform="translate(400 225) scale(0.8) translate(-400 -225)">
+  <circle cx="660" cy="100" r="42" fill="#ffe28f" stroke="#f4b942" stroke-width="5"/>
+  <g fill="none" stroke="#8d6e63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 身体与头 -->
+    <path d="M330 372 Q 320 250 400 250 Q 480 250 470 372 Z"/>
+    <circle cx="400" cy="205" r="62"/>
+    <!-- 耳朵 -->
+    <path d="M352 168 L342 118 L392 142"/>
+    <path d="M448 168 L458 118 L408 142"/>
+    <!-- 尾巴 -->
+    <path class="tail" d="M330 360 Q 280 350 284 300 Q 286 272 306 266"/>
+    <!-- 胡须 -->
+    <path d="M356 208 L318 202 M356 220 L318 224 M444 208 L482 202 M444 220 L482 224" stroke-width="4.5"/>
+  </g>
+  <!-- 眼睛（眨眼） -->
+  <g class="eyes-l">
+    <circle cx="378" cy="200" r="6" fill="#4e342e"/>
+    <circle cx="422" cy="200" r="6" fill="#4e342e"/>
+  </g>
+  <path d="M392 224 q 8 8 16 0" fill="none" stroke="#4e342e" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M400 214 l -5 7 l 10 0 Z" fill="#f48fb1"/>
+  <!-- Zzz -->
+  <g class="zzz" fill="#ba68c8" font-family="sans-serif" font-weight="bold">
+    <text x="492" y="130" font-size="26">Z</text>
+    <text x="516" y="106" font-size="34">Z</text>
+    <text x="548" y="78" font-size="42">Z</text>
+  </g>
+</g>
+</svg>
