@@ -1,6 +1,8 @@
-# Mangoasis
+# Mangoasis1024
 
 基于 **Vue3 + Element Plus** 的个人博客与壁纸空间 **Mangoasis**，视觉设计灵感来自 [Hexo Butterfly 主题](https://butterfly.js.org/)，技术栈与功能参考 [mrzym.top](http://mrzym.top/#/home)，**支持网页端与移动端在线编写博客（类 Typora 即时渲染编辑器）**。
+
+
 
 ## ✨ 特性
 
